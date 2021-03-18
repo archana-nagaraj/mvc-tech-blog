@@ -1,0 +1,26 @@
+{
+  "name": "mvc-tech-blog",
+  "version": "1.0.0",
+  "description": "a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archana-nagaraj/mvc-tech-blog.git"
+  },
+  "author": "archana-nagaraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/archana-nagaraj/mvc-tech-blog/issues"
+  },
+  "homepage": "https://github.com/archana-nagaraj/mvc-tech-blog#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
