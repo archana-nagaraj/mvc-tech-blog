@@ -17,7 +17,7 @@ An CMS-style blog site similar to a Wordpress site, where developers can publish
 * [Questions](#questions)
 
 ## Deployment 
-* The is live at heroku. 
+* The app is deployed in heroky at https://stark-journey-61935.herokuapp.com/
 
 ### Screenshots 
 * ![/](./public/assets/SignupPage.png)
