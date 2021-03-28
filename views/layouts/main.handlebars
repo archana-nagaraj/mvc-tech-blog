@@ -4,20 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Tech Blog</title>
+  <title>MVC Tech Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <h1>
-        <p class="blog-title">The Tech Blog <i class="large material-icons">laptop_mac</i></p>
-      </h1>
+      
     
-    <nav>
+    <nav class="navbar navbar-dark bg-light">
+      <h1>
+        <p class="blog-title">MVC Tech Blog </p>
+      </h1>
     {{#if loggedIn}}
     <a href="/" class="homepage">Homepage</a>
     <a href="/dashboard">Dashboard</a>

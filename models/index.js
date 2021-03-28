@@ -2,32 +2,32 @@ const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');
 
-// users can post many posts 
+// users can make many posts 
 User.hasMany(Post, {
     foreignKey: 'user_id'
 }); 
 
-// a post is specific to one user 
+// a post can only belong to one user 
 Post.belongsTo(User, {
     foreignKey: 'user_id'
 })
 
-// a comment is specific to one user 
+// a comment can only belong to one user 
 Comment.belongsTo(User, {
     foreignKey: 'user_id'
 });
 
-// a comment is specific to one user 
+// a comment can only belong to one user 
 Comment.belongsTo(Post, {
     foreignKey: 'post_id'
 });
 
-// users can post many comments 
+// users can make many comments 
 User.hasMany(Comment, {
     foreignKey: 'user_id'
 });
 
-// users can post many posts 
+// users can make many posts 
 Post.hasMany(Comment, {
     foreignKey: 'post_id'
 });

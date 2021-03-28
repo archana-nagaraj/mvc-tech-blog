@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #6F1E51;
-    --primary-hover: #B53471;
+    --primary-color: #6f1e1e;
+    --primary-hover: #343db5;
 }
 
 * {
@@ -12,7 +12,7 @@ body, html, input, textarea {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Newsreader", sans-serif;
     color: #333;
 }
 
@@ -21,7 +21,7 @@ a {
     color: var(--primary-color);
     font-weight: bold;
     transition: color .1s;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Newsreader", sans-serif;
 }
 
 .homepage {
@@ -62,7 +62,7 @@ button {
     transition: background-color .1s;
     cursor: pointer;
     border-radius: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Newsreader", sans-serif;
 }
 
 button:hover{
@@ -111,9 +111,12 @@ header {
     border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 1%;
+    align-items: right;
+    padding-top: 5%;
+    margin-top: auto;
 }
+
+
 
 header h1 {
     font-size: 1em;
